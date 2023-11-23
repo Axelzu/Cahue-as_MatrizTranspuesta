@@ -30,4 +30,12 @@ int main(){
             transpuesta[i][j] = matriz[j][i];
         }
     }
+    // aqui se imprime la matriz transpuesta
+    printf("Matriz transpuesta:\n");
+    for (int i = 0; i < columnas; i++) {
+        for (int j = 0; j < filas; j++) {
+            printf("%d ", transpuesta[i][j]);
+        }
+        printf("\n");
+    }
 }
