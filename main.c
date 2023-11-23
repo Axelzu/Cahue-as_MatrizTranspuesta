@@ -23,4 +23,11 @@ int main(){
         }
         printf("\n");
     }
+     // aqui se calcula calcula la matriz transpuesta
+    int transpuesta[columnas][filas];
+    for (int i = 0; i < columnas; i++) {
+        for (int j = 0; j < filas; j++) {
+            transpuesta[i][j] = matriz[j][i];
+        }
+    }
 }
